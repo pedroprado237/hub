@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="flex justify-center">
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -14,7 +14,8 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>HUB in Vite + React</h1>
+      <h1 className="text-3xl font-bold">HUB in Vite + React</h1>
+      
     </>
   )
 }
